@@ -1,0 +1,4 @@
+# specify
+
+Create a browser-based Reverse Polish Notation (RPN) calculator allowing users to perform basic calculations and see results. The system must support starting a new session with an empty stack, applying valid tokens (operands push to stack, unary/binary operators consume operands and push results), inspecting full stack and top-of-stack, rejecting operations with insufficient operands, rejecting invalid tokens and unsupported operators, handling arithmetic domain errors and numeric limits (e.g., division by zero) while preserving state, resetting the calculator to a clean session, and undoing the last accepted stack mutation (rejected tokens do not affect undo history). The system must behave deterministically, and a critical invariant is that on any rejected token or failed operation, the calculator preserves the pre-error stack state.
+
